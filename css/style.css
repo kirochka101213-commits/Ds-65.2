@@ -1,0 +1,185 @@
+.menu-ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  gap: 10px;
+  height: 45px;
+  width: 405px;
+  background-color: black;
+  padding-left: 0;
+  border-radius: 15px;
+  margin-left: 200px;
+}
+
+a {
+  font-family: "Orbitron", sans-serif;
+  font-size: 13px;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.2);
+  margin: 0;
+}
+
+.hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)), url(img/background.webp);
+  background-position: center;
+  height: 270px;
+  width: 670px;
+  display: flex;
+  background-size: cover;
+  justify-content: flex-end;
+  margin-left: auto;
+  margin-top: -40px;
+  border-radius: 20px;
+  padding-left: 25px;
+  padding-top: 10px;
+  padding-right: 0;
+  position: relative;
+  z-index: 1;
+}
+
+.line {
+  height: 7px;
+  width: 280px;
+  border-radius: 50px;
+  background-color: #28292e;
+  position: relative;
+  z-index: 2;
+  overflow: hidden;
+}
+
+.line::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 140px;
+  height: 100%;
+  background-image: linear-gradient(to right, #00ffff 0%, transparent 100%);
+}
+
+.titles {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-right: auto;
+  justify-content: flex-start;
+}
+
+.titleC {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 30px;
+  width: 100%;
+  text-decoration: none;
+  color: white;
+  white-space: nowrap;
+}
+
+.mini-title {
+  font-family: "Orbitron", sans-serif;
+  font-size: 22px;
+  margin-top: 50px;
+  text-decoration: none;
+  color: white;
+  width: 300px;
+}
+
+.ikon-div {
+  height: 60px;
+  width: 60px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 50px;
+  display: flex;
+  margin-right: 20px;
+  margin-top: 35px;
+  align-items: center;
+  justify-content: center;
+}
+
+.ikon2 {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 30px;
+  margin-top: 3px;
+}
+
+.Home {
+  font-family: "Orbitron", sans-serif;
+  text-decoration: none;
+  color: #00FFFF;
+  margin: 0;
+}
+
+.dot {
+  height: 5px;
+  width: 5px;
+  border-radius: 50px;
+  background-color: #00FFFF;
+  margin-left: 18.5px;
+}
+
+.logo-ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  list-style-type: none;
+  height: 45px;
+  width: 135px;
+  background-color: black;
+  padding-left: 0;
+  border-radius: 15px;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0;
+}
+
+.logo-img {
+  color: #00FFFF;
+  margin-right: 0;
+}
+
+.logo-text {
+  color: #00FFFF;
+  font-family: "Ubuntu", sans-serif;
+  text-decoration: none;
+  margin-left: 0;
+}
+
+.img-ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  list-style-type: none;
+  height: 45px;
+  width: 100px;
+  background-color: black;
+  padding-left: 0;
+  border-radius: 15px;
+  gap: 12px;
+}
+
+.ikon1 {
+  color: white;
+  font-size: 17px;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 0;
+  position: relative;
+  z-index: 5;
+}
+
+body {
+  padding: 0 15px 15px 0;
+  background-color: #0B0B0B;
+}/*# sourceMappingURL=style.css.map */

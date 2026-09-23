@@ -1,0 +1,91 @@
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 0;
+    position: relative;
+    z-index: 5;
+}
+
+.menu-ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    gap: 10px;
+    height: 45px;
+    width: 405px;
+    background-color: $backround-color;
+    padding-left: 0;
+    border-radius: 15px;
+    margin-left: 200px;
+}
+
+a {
+    font-family: $font-orbitron;
+    font-size: 13px;
+    text-decoration: none;
+    color: #FFFFFF33;
+    margin: 0;
+}
+
+.dot {
+    height: 5px;
+    width: 5px;
+    border-radius: $radius-circle;
+    background-color: $neon-color;
+    margin-left: 18.5px;
+}
+
+.logo-ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    height: 45px;
+    width: 135px;
+    background-color: black;
+    padding-left: 0;
+    border-radius: 15px;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0;
+}
+
+.logo-img {
+    color: $neon-color;
+    margin-right: 0;
+}
+
+.logo-text {
+    color: $neon-color;
+    font-family: "Ubuntu", sans-serif;
+    text-decoration: none;
+    margin-left: 0;
+}
+
+.img-ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    height: 45px;
+    width: 100px;
+    background-color: $backround-color;
+    padding-left: 0;
+    border-radius: 15px;
+    gap: 12px;
+}
+
+.ikon1 {
+    color: $text-color;
+    font-size: 17px;
+}
